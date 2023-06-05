@@ -8,7 +8,8 @@ import Detail from './components/pages/Detail/Detail';
 import Header from './components/common/Header/Header';
 import Footer from './components/common/Footer/Footer';
 
-axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://countriesapp-server.onrender.com";
+//axios.defaults.baseURL = "http://localhost:3001";
 
 function App() {
   
